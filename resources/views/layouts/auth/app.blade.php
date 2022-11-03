@@ -49,7 +49,7 @@
                         </div>
                         <br>
                         @yield('content')
-                        <div class="simple-footer">
+                        <div class="simple-footer text-white">
                             Copyright &copy; {{ date('Y') }}
                         </div>
                     </div>
