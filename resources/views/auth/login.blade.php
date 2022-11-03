@@ -3,7 +3,8 @@
 @section('content')
     <div class="card card-warning">
         <div class="card-header">
-            {{-- <h4>Login</h4> --}}
+            {{-- <h4>Register</h4> --}}
+            {{-- </div> --}}
 
             <div class="card-body">
                 <div class="text-dark d-flex justify-content-center">
@@ -37,10 +38,11 @@
                             Login
                         </button>
                     </div>
+                    <div class="mt-5 text-muted text-center">
+                        <a href="{{ route('register') }}">Register</a>
+                    </div>
                 </form>
             </div>
         </div>
-        <div class="mt-5 text-muted text-center">
-            <a href="{{ route('register') }}">Create now</a>
-        </div>
-    @endsection
+    </div>
+@endsection

@@ -54,10 +54,10 @@
                         Register
                     </button>
                 </div>
+                <div class="mt-5 text-muted text-center">
+                    Already have a account? <a href="{{ route('login') }}">Sign In Now</a>
+                </div>
             </form>
         </div>
-    </div>
-    <div class="mt-5 text-muted text-center">
-        Already have a account? <a href="{{ route('login') }}">Sign In Now</a>
     </div>
 @endsection
