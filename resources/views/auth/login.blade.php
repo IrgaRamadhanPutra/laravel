@@ -38,9 +38,11 @@
                             Login
                         </button>
                     </div>
-                    <div class="mt-5 text-muted text-center">
+                    {{-- <div class="mt-5 text-muted text-center">
                         <a href="{{ route('register') }}">Register</a>
-                    </div>
+                    </div> --}}
+                    <br>
+                    <br>
                 </form>
             </div>
         </div>
