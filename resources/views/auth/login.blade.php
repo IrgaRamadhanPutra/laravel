@@ -5,7 +5,6 @@
         <div class="card-header">
             {{-- <h4>Register</h4> --}}
             {{-- </div> --}}
-
             <div class="card-body">
                 <div class="text-dark d-flex justify-content-center">
                     <span class="">SIGN <span class="text-primary">IN</span></span>
@@ -22,7 +21,6 @@
                             </div>
                         @enderror
                     </div>
-
                     <div class="form-group">
                         <label for="password" class="control-label">Password</label>
                         <input id="password" type="password" class="form-control @error('password') is-invalid @enderror"

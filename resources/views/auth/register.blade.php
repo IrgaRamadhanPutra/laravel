@@ -5,7 +5,6 @@
         <div class="card-header">
             {{-- <h4>Register</h4> --}}
             {{-- </div> --}}
-
             <div class="card-body">
                 <div class="text-dark d-flex justify-content-center">
                     <span class="">Regis<span class="text-primary">ter</span></span>
